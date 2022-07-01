@@ -26,6 +26,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
+
+
+
 app = Flask(__name__)
 CORS(app)
 
@@ -263,7 +266,7 @@ def getContact():
         browser.close()
         pass
     browser.sendEmail()
-    return "ok"
+    return "okd"
 
 
 @app.route("/sms")

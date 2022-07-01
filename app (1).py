@@ -1,3 +1,10 @@
+# from src.getcontact import ScrapContacts
+from flask import Flask, request
+from flask_cors import CORS
+from twilio.rest import Client
+import urllib.request
+import openpyxl
+import requests as r
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
@@ -18,6 +25,9 @@ from datetime import timedelta
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+
+app = Flask(__name__)
+CORS(app)
 
 
 class ScrapContacts:
@@ -238,7 +248,76 @@ class ScrapContacts:
             pass
 
 
+@app.route('/')
+def index():
+    return 'Ok'
+
+
+@app.route('/getcontact')
+def getContact():
+    browser = ScrapContacts()
+    browser.login()
+    try:
+        browser.geContact(retake=False)
+    except Exception:
+        browser.close()
+        pass
+    browser.sendEmail()
+    return "ok"
+
+
+@app.route("/sms")
+def sendMsg():
+    print('Geting excel')
+    link = request.args.get("link")
+    msg = request.args.get("msg")
+    urllib.request.urlretrieve(link, "excel.xlsx")
+    print("Done")
+    dateSeLoger = 0
+    name = 1
+    phoneNumber = 2
+    kind = 3
+    price = 4
+    surface = 5
+    zipCode = 6
+    city = 7
+    wookbook = openpyxl.load_workbook("excel.xlsx")
+    worksheet = wookbook.active
+    for col in worksheet.iter_rows(1, worksheet.max_row):
+        # print(col[1].value, col[2].value, col[3].value, col[4].value,)
+        if not all([cell.value == None for cell in col]):
+            try:
+                newMsg = msg.replace("[Date seloger]", str(col[dateSeLoger].value)).replace("[Nom Prenom]", str(col[name].value)).replace("[Telephone]", str(col[phoneNumber].value)).replace(
+                    "[type]", col[kind].value).replace("[prix]", col[price].value).replace("[surface]", col[surface].value).replace("[Code postal]", col[zipCode].value).replace("[ville]", col[city].value)
+                number = str(col[phoneNumber].value)
+                number = number.replace(" ", "")
+                if "+" not in number:
+                    number = "+33" + number
+
+                try:
+                    phone = col[phoneNumber].value
+                    sms = newMsg
+                    # link = f"https://trigger.macrodroid.com/95686f40-af84-472d-ab3b-95cf9a529709/sms?eau={phone}&&pain={sms}"
+                    link = f"https://trigger.macrodroid.com/d5a0e1dd-7222-4f7c-8b32-aedd70bab2d6/sms?destinataire={phone}&&sms={sms}"
+                    r.get(link)
+                    # account_sid = 'ACc8c2f62d7f2b00775a667f13933f2e6f'
+                    # auth_token = '7c36d2b8b60ffd3e8d783f87853241a0'
+                    # client = Client(account_sid, auth_token)
+                    # message = client.messages.create(
+                    #     messaging_service_sid='MGca1c4db4a73fb12999bc81123d7d946d',
+                    #     body=newMsg,
+                    #     to='+330651598405'
+                    #     # to=col[phoneNumber].value
+                    # )
+                    print("Sended")
+                except Exception as e:
+                    print(e)
+                    pass
+            except Exception as e:
+                print(e)
+                pass
+    return "ok"
+
+
 if __name__ == "__main__":
-    a = ScrapContacts()
-    a.login()
-    a.geContact()
+    app.run(host='0.0.0.0', port=8099)
