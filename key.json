@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "antigenandfastest",
+  "private_key_id": "0b476f37a3bf3b5c6e22be13a2b4df301b53e006",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3xPeUyQMtYjQg\nrBAL6G3MiiufUg5YXwhXBYvIttAcX6qvzLjDUEeU+2K8iUOG24g6w7PnsWIanx8C\n35p7Zknf1ewe6j3rz8PuX5jEWOluVdghRpAfG++vLgZsCEHUsUO9gLJWuf6cfSnU\nV+7XzT5M91Bz363qOeG1O/F9ire8kduMIVZ0cUbnBa5KHbRxreULhJhzCO6RMbUi\nxRFHHV7MnnyWMB/d/im38bcNVxBDX2ZwlLljRk+JffQas97lAa1T0quGMrykxPhf\nCHrETrIyyzb2QHkXdUoexuPhon0h6/Kui0X116+ZuoT3YK9FxRtpKW2V9YbdgWCT\nHRlBMWojAgMBAAECggEAK4CLA0OaZvHqWRmiKs94voSu0uY/0xecB82eS4NLPIxB\nAaC61DF64H+p3eu4eoIZe5+8RMqu6JJmau23yiJqtnwTizX0NpBWV2V16nUJvT7B\nDQ+BKnwYfyWsC4Lg4pKb8I44qWMaLL1MW6H9PkStzNZ2yxdWOi49igOIpSljWVXe\nrYG/aYOKv/FBsN7QLhfpR1GyFxS2SuMMD1tdE18EN2CgPeJDxfgISJadJ7l26vdT\nOKqIjyH1nmb5+OshgazQknelCIwB3108i83nc4q+CX+AwEC4Xb7CiBf34dPFjjzF\nB879jik4uQLFnDLCmUPzf/Q37/xBMQo8TJtOCcQdMQKBgQDvRReAJQbL1gcXKoCs\n3mjj2z7XAk+nKqWUO8jZfZxV/LnY4C9z4zDcsN8jeAOdH5HNKecyqTSviEnnesf7\nCknrbgSxcAOo5wUGA9a9DAdBFneAsGZ54+FvffIGjsWZ5ywC/SrD8fD+ZacuKvBV\nvLWt4GOI+OJ24om7xrKdu/ATdwKBgQDEnmwBF/TBszwDkUP4vgGXS+EkEmO2wei3\nv/PtWr8NhmH9NIaRggQllFdbmwZxx5cbzQjsP3TI9GvqkWHVc7Y8N3L24dubZEMI\nroSfXeHVkO6nhljZG+VudxM9VMheyl78uCRjTdBVv/LBYWfjUfhYthcMPwOp8srN\n59j2zM1RtQKBgFTawezWNMTRUI5sqlmkPrqgJHcIAMueGj6pvR80pt7v09EQIIQO\nzGNX7qqbg1yTt5d1BuM2ktK1mNAZARcMnQ57Y/qxaPrbgzKQ5fUBcQkqOJNQ++a6\nZFav6cddlsJv83HT6vi2surljhaXb8hYNm5Fp8cJzPawfHw1iV7bKdcdAoGAaIrL\nZnF0ZCGGwWbVu0Zb1jQ0S1ezyRKlSD451nQvrWNMarMo8ekth0WuhTiSXqD/CXsl\nSWgcElVTo+8VE8dol+/rorVIbQEMW2tffNUQJNvg6RYX26hnfyq1AiE4QJ5djwXh\n4yMWqOFck9HUyRtmbtSywIIo0o4ToxOpWuBeMxkCgYEAn1AkXJbaZEtVdaU4i85y\nmZpkYbKbgU379bRdL7Wd6ntF7agIR+21kOpiV1iZp7Oj7eorhfGiuK9rGqvtcEZR\nV+HFkLzvzP+D3V663G4TUh8kKUBNPEPzIHlbpoxLMxwL/N5OFXIwhj+udG1AiRS2\n2+C2sM2lzZ2LP9fqS6rI3YI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "antigen@antigenandfastest.iam.gserviceaccount.com",
+  "client_id": "108921689997444057845",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/antigen%40antigenandfastest.iam.gserviceaccount.com"
+}

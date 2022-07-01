@@ -1,0 +1,159 @@
+1653505230043	geckodriver	INFO	Listening on 127.0.0.1:54079
+1653505233065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofileoGjlmU"
+1653505233457	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofileoGjlmU\\search.json.mozlz4", (void 0)))
+1653505234935	Marionette	INFO	Listening on port 54102
+Read port: 54102
+1653505234978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myselogerpro.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myselogerpro.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myselogerpro.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1653505345394	geckodriver	INFO	Listening on 127.0.0.1:54565
+1653505348440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofilel1orur"
+1653505348734	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofilel1orur\\search.json.mozlz4", (void 0)))
+1653505350092	Marionette	INFO	Listening on port 54775
+Read port: 54775
+1653505350198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myselogerpro.com"
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653505605390	geckodriver	INFO	Listening on 127.0.0.1:55480
+1653505608444	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofile0B9HbF"
+1653505608805	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofile0B9HbF\\search.json.mozlz4", (void 0)))
+1653505610336	Marionette	INFO	Listening on port 55504
+Read port: 55504
+1653505610437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653505611808	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1653505626051	geckodriver	INFO	Listening on 127.0.0.1:55552
+1653505629126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofilelqtqxt"
+1653505629450	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofilelqtqxt\\search.json.mozlz4", (void 0)))
+1653505630953	Marionette	INFO	Listening on port 55778
+Read port: 55778
+1653505631010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1653505638628	Marionette	INFO	Stopped listening on port 55778
+1653506168044	geckodriver	INFO	Listening on 127.0.0.1:57072
+1653506171066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofileTw6a1l"
+1653506171522	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofileTw6a1l\\search.json.mozlz4", (void 0)))
+1653506173666	Marionette	INFO	Listening on port 57099
+Read port: 57099
+1653506173719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653506191170	Marionette	INFO	Stopped listening on port 57099
+1653811826446	geckodriver	INFO	Listening on 127.0.0.1:59851
+1653811829474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofilev8BW1m"
+1653811829858	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofilev8BW1m\\search.json.mozlz4", (void 0)))
+1653811831242	Marionette	INFO	Listening on port 59873
+Read port: 59873
+1653811831291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myselogerpro.com"
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653811984811	Marionette	INFO	Stopped listening on port 59873
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653811988071	geckodriver	INFO	Listening on 127.0.0.1:59949
+1653811991100	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofileyoDlTW"
+1653811991359	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofileyoDlTW\\search.json.mozlz4", (void 0)))
+1653811992622	Marionette	INFO	Listening on port 59975
+Read port: 59975
+1653811992656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myselogerpro.com"
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653812145668	Marionette	INFO	Stopped listening on port 59975
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653812148843	geckodriver	INFO	Listening on 127.0.0.1:60048
+1653812151896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofiley2a7yg"
+1653812152156	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofiley2a7yg\\search.json.mozlz4", (void 0)))
+1653812153435	Marionette	INFO	Listening on port 60070
+Read port: 60070
+1653812153461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myselogerpro.com"
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653812308454	Marionette	INFO	Stopped listening on port 60070
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653812311626	geckodriver	INFO	Listening on 127.0.0.1:60139
+1653812314684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofilecpKMSy"
+1653812314935	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofilecpKMSy\\search.json.mozlz4", (void 0)))
+1653812316202	Marionette	INFO	Listening on port 60161
+Read port: 60161
+1653812316243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myselogerpro.com"
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653812468031	Marionette	INFO	Stopped listening on port 60161
+1653812471207	geckodriver	INFO	Listening on 127.0.0.1:60270
+1653812474282	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofile2FAlKg"
+1653812474541	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Dan\\AppData\\Local\\Temp\\rust_mozprofile2FAlKg\\search.json.mozlz4", (void 0)))
+1653812475824	Marionette	INFO	Listening on port 60292
+Read port: 60292
+1653812475845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://myselogerpro.com"
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653812543667	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1653812547230	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1653812551747	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1653812554012	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1653812555853	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1653812558020	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1653812560486	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1653812562627	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
